@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo"></img>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p align="right"> Web Developer</p>
+                <h1 align="right">Hi, I'm <span>Danya<br>Vakulenkov</span> from Moscow</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>The knowledge of what I want in life and passed exams made
+                        possible for me to get into the best university in Russia.
+                        It helped me to get used to working with huge amounts of information
+                        and learning new skills at incredible speeds. My colleagues would
+                        describe me as a well organised team player who understands the
+                        topic thoroughly and always is ready to help. As an accomplished developer,
+                        I possess a passion for innovation and problem-solving. With expertise in development, 
+                        I strive to create efficient, user-centric solutions that make a positive impact.
+                        My commitment to continuous learning drives me to stay at the forefront of technology
+                        trends, enabling me to tackle new challenges with enthusiasm and creativity.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Telegram Development</span><br>Telegram and Bot API</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Python automation</span><br>Python scripts</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>Developer in Qrwer Studio</li>
+                            <li><span>2019-2021</span><br>Web app Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - Current</span><br>B. Sc. Cyber Security MIPT</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------SERVICES---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-telegram"></i>
+                    <h2>Telegram Development</h2>
+                    <p>As a seasoned Telegram developer, I excel in crafting innovative chatbots and harnessing
+                        Telegram's API to deliver engaging, interactive, and user-friendly experiences.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>With a strong foundation in web development, I specialize in designing and building dynamic
+                        websites, ensuring seamless user experiences and robust backend functionalities.</p>
+
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-terminal"></i>
+                    <h2>Python Scripts</h2>
+                    <p>Leveraging Python's power, I create efficient, scalable, and automated scripts, streamlining
+                        processes and solving diverse challenges with precision and reliability.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h2>Burn Tobacco Bot</h2>
+                        <p>The official bot of Burn Tobacco. Here you can learn more about Burn products,
+                            win valuable prizes, and also get access to special events of Burn Tobacco!</p>
+                        <a href="https://t.me/burntobacco_bot"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h2>Anti-spam system</h2>
+                        <p>During telephone conversations, attackers use various tricks to convince you to transfer
+                            money to them. The service will warn you about dangerous incoming calls: it automatically
+                            detects the numbers of scammers.</p>
+                        <a href="https://www.sberbank.ru/ru/person/cybersecurity/callerid"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-mail-bulk"></i> vakdan555@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> +7(918)967-86-53</p>
+                    <div class="social-icons">
+                        <a href="https://t.me/danyadjan"><i class="fab fa-telegram"></i></a>
+                        <a href="https://github.com/Danya-Djan"><i class="fab fa-github"></i></a>
+                        <a href="https://instagram.com/danya_vakulenkov"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Made with <i class="fas fa-heart"></i></p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        // JavaScript for handling the mobile navigation menu
+        document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+
+    </script>
+</body>
+
+</html>
